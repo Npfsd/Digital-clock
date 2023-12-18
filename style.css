@@ -1,0 +1,38 @@
+ @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Love+Ya+Like+A+Sister&family=Orbitron:wght@900&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap');
+
+@font-face {
+   font-family:digital-7 ;
+   src: url('digital-7.ttf');
+}
+ body{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto Mono', monospace;
+background-color: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+
+ }
+ .clocktext{
+   color: white;
+   font-size: 50px;
+ }
+ .clock{
+
+    font-family: di;
+    color:#20c20e;
+    font-size: 60px;
+    letter-spacing: 5px;
+    /* width: 60px;
+    height: 100px; */
+    border: 30px solid #FF9800;
+font-family: digital-7;
+    padding: 20px;
+box-shadow: 0 0 20px red; 
+ }
